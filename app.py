@@ -5,6 +5,7 @@ import sqlite3
 app = Flask(__name__)
 
 
+
 def dict_factory(cursor, row):
     d = {}
     for idx, col in enumerate(cursor.description):
